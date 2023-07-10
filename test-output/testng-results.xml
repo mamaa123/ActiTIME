@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-09T20:38:27 IST" name="Default suite" finished-at="2023-07-09T20:39:45 IST" duration-ms="78068">
+    <groups>
+    </groups>
+    <test started-at="2023-07-09T20:38:27 IST" name="Default test" finished-at="2023-07-09T20:39:45 IST" duration-ms="78068">
+      <class name="POM.ActiTIME.Execution.FrameworkExecution">
+        <test-method is-config="true" signature="ExecutionStart()[pri:0, instance:POM.ActiTIME.Execution.FrameworkExecution@33d512c1]" started-at="2023-07-09T20:38:27 IST" name="ExecutionStart" finished-at="2023-07-09T20:38:27 IST" duration-ms="51" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecutionStart -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:POM.ActiTIME.Execution.FrameworkExecution@33d512c1]" started-at="2023-07-09T20:38:27 IST" name="setup" finished-at="2023-07-09T20:39:29 IST" duration-ms="62126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginlogout()[pri:0, instance:POM.ActiTIME.Execution.FrameworkExecution@33d512c1]" started-at="2023-07-09T20:39:29 IST" name="loginlogout" finished-at="2023-07-09T20:39:45 IST" duration-ms="15674" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginlogout -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:POM.ActiTIME.Execution.FrameworkExecution@33d512c1]" started-at="2023-07-09T20:39:45 IST" name="teardown" finished-at="2023-07-09T20:39:45 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="ExecutionComplete()[pri:0, instance:POM.ActiTIME.Execution.FrameworkExecution@33d512c1]" started-at="2023-07-09T20:39:45 IST" name="ExecutionComplete" finished-at="2023-07-09T20:39:45 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecutionComplete -->
+      </class> <!-- POM.ActiTIME.Execution.FrameworkExecution -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
