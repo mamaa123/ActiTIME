@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+<test name="ChromeTest">
+	  <parameter name="browser" value="chrome"></parameter>
+      <classes>
+         <class name="Framework_Assignment.ActiTIME_CreateLeaveTypeDeleteLogOut_CrossBrowserTesting"/>
+  </classes>
+</test> <!-- Test -->
+<test name="EdgeTest">
+	  <parameter name="browser" value="edge"></parameter>
+	  <classes>
+		  <class name="Framework_Assignment.ActiTIME_CreateLeaveTypeDeleteLogOut_CrossBrowserTesting"></class>
+	  </classes>
+</test>
+<test name="GeckoTest">
+	  <parameter name="browser" value="gecko"></parameter>
+	  <classes>
+		  <class name="Framework_Assignment.ActiTIME_CreateLeaveTypeDeleteLogOut_CrossBrowserTesting"></class>
+	  </classes>
+</test>
+</suite> <!-- Suite -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
